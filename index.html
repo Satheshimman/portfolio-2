@@ -11,7 +11,7 @@
     <meta name="author" content="Maraviya Infotech">
 
     <!-- site Favicon -->
-    <link rel="icon" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/assets/img/favicon/favicon.png" sizes="32x32">
+    <link rel="icon" href="./images/profile.png" sizes="32x32">
     <link rel="apple-touch-icon" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/assets/img/favicon/favicon.png">
     <meta name="msapplication-TileImage" content="assets/img/favicon/favicon.png">
 
@@ -23,7 +23,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="./Brog - Personal Portfolio HTML Template_files/style.css">
     <link rel="stylesheet" href="./Brog - Personal Portfolio HTML Template_files/responsive.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -38,7 +38,23 @@
     </div>
 
     <!-- Header Start -->
-    <header>
+     <section id="small-header" class="d-lg-none d-sm-none d-md-none">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <h3>Portfolio</h3>
+                </div>
+                 <div class="col-6 text-end">
+                   <button class="br-sidebar-toggle" id="toggle-btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                   </button>
+                </div>
+            </div>
+        </div>
+     </section>
+    <header class="d-none d-lg-block d-sm-block d-md-block">
         <nav>
             <button class="br-sidebar-toggle">
                 <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" src="assets/img/icons/menu.svg" class="svg_img" alt="menu">
@@ -50,6 +66,7 @@
             </button>
         </nav>
     </header>
+    
     <!-- Header End -->
 
     <!-- Sidebar Start -->
@@ -79,7 +96,7 @@
     <!-- Sidebar End -->
 
     <!-- Hero Start -->
-    <section id="home" class="br-hero margin-b-50">
+    <section id="home" class="br-hero margin-b-50 my-5">
         <div class="br-text-1">PROFESSIONAL</div>
         <div class="br-text-2">RESUME</div>
         <div class="container">
@@ -90,7 +107,7 @@
                         </h1>
                         <p class="br-hero-detail">Full-stack developer with 1.5 year of professional experience and a strong foundation in HTML, CSS, JavaScript, React.js, Node.js, Express, and SQL. Completed engineering in 2023 and a 6-month front-end development course.
                         </p>
-                        <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html" class="br-learn-more-right">
+                        <a href="./images/sathesh_resume.pdf" class="br-learn-more-right" target="_blank" download>
                             <span class="text">Download CV</span>
                         </a>
                     </div>
@@ -106,14 +123,7 @@
                 <div class="art"></div>
             </div>
         </div>
-        <div class="scroll-next" data-scroll="about">
-            <div class="br-container">
-                <span class="menu">
-                    <span class="text"></span>
-                    <span class="circle"></span>
-                </span>
-            </div>
-        </div>
+       
     </section>
     <!-- Hero End -->
 
@@ -267,16 +277,6 @@
   </p>
                                 </div>
                             </li>
-                            <li class="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
-                                <div class="timeline-info">
-                                    <span>June 1, 2018 - 2019</span>
-                                </div>
-                                <div class="timeline-content">
-                                    <h5 class="timeline-title">Higher Secondary<span class="sub"></span></h5>
-                                    <p>Completed Higher Secondary Education with a focus on Mathematics, Physics, and Chemistry. Developed strong analytical and problem-solving skills through coursework and practical experiments. This phase laid the academic foundation for pursuing engineering studies and adapting to technical challenges.
-  </p>
-                                </div>
-                            </li>
                         </ul>
 
                     </div>
@@ -331,7 +331,7 @@
                                         <li class="filter mixitup-control-active" data-filter="all">ALL</li>
                                         <li class="filter" data-filter=".freelancing">Freelancing</li>
                                         <li class="filter" data-filter=".development">devolopement</li>
-                                        <li class="filter" data-filter=".Maintainence">Maintainence</li>
+                                        <li class="filter" data-filter=".maintainence">Maintainence</li>
                                         <li class="filter" data-filter=".templates">Templates</li>
                                     </ul>
                                 </div>
@@ -341,175 +341,267 @@
                                     <div class="row m-b-minus-30px">
                                         <div class="col-lg-6 mix graphics freelancing">
                                             <div class="br-project-box">
-                                                <h3>BonzaMart - Super market</h3>
-                                                <div class="links">
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">3D Graphics</a> |
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Templates</a>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. It has been the industry's standard ever since the 1500s.
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Read more</a>
-                                                </p>
-                                                <div class="br-info row flex-wrap">
+                                                <h3>lakshmi-masala spices-store</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
                                                     <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                                        <img src="./images/lakshmi-masala.png" class="w-100"/>
                                                     </div>
                                                     <div class="br-detail col-lg-6 col-md-6 col-sm-6">
                                                         <ul>
-                                                            <li>Date : 1, Jan - 2023</li>
-                                                            <li>Client : Symphony</li>
-                                                            <li>Tech : Angular, Nodejs, Ios</li>
+                                                            <li>Date : 1, Jan - 2025</li>
+                                                            <li>company : FreeLancer</li>
+                                                            <li>Tech : React, Nodejs, MySQL</li>
                                                             <li>Type : eCommerce</li>
-                                                            <li>URL : <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html#">www.your-project-url.com</a></li>
+                                                            <li>URL : <a href="https://www.lakshmibrandmasala.com/" target="_blank">www.lakshmibrandmasala.com</a></li>
                                                         </ul>
 
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 mix design">
+                                          <div class="col-lg-6 mix graphics development">
                                             <div class="br-project-box">
-                                                <h3>ShowMania - Entertainment</h3>
-                                                <div class="links">
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Web Design</a>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. It has been the industry's standard ever since the 1500s.
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Read more</a>
-                                                </p>
-                                                <div class="br-info">
-                                                    <div class="portfolio-img">
-                                                        <a class="" data-fancybox="gallery" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/assets/img/portfolio/2.jpg" style="background-image: url(assets/img/portfolio/22.jpg)">
-                                                            <span class="overlay">+</span>
-                                                        </a>
+                                                <h3>Kuncapital</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/kuncapital.png" class="w-100"/>
                                                     </div>
-                                                    <div class="br-detail">
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
                                                         <ul>
-                                                            <li>Date : 15, Mar - 2022</li>
-                                                            <li>Client : Martin Wilson</li>
-                                                            <li>Tech : React, Nodejs, Android</li>
-                                                            <li>Type : Entertainment</li>
-                                                            <li>URL : <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html#">www.your-project-url.com</a></li>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech : HTML,Css,javascript,Python</li>
+                                                            <li>Type : financial services</li>
+                                                            <li>URL : <a href="https://kuncapital.com/" target="_blank">Kuncapital.com</a></li>
                                                         </ul>
-
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 mix design">
+                                         <div class="col-lg-6 mix graphics maintainence">
                                             <div class="br-project-box">
-                                                <h3>WorldToday - Portal</h3>
-                                                <div class="links">
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Web Design</a>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. It has been the industry's standard ever since the 1500s.
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Read more</a>
-                                                </p>
-                                                <div class="br-info">
-                                                    <div class="portfolio-img">
-                                                        <a class="" data-fancybox="gallery" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/assets/img/portfolio/3.jpg" style="background-image: url(assets/img/portfolio/33.jpg)">
-                                                            <span class="overlay">+</span>
-                                                        </a>
+                                                <h3>E-Learning</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/e-learnig.png" class="w-100"/>
                                                     </div>
-                                                    <div class="br-detail">
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
                                                         <ul>
-                                                            <li>Date : 5, Feb - 2022</li>
-                                                            <li>Client : John Worrior</li>
-                                                            <li>Tech : React, Nodejs, Android</li>
-                                                            <li>Type : News</li>
-                                                            <li>URL : <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html#">www.your-project-url.com</a></li>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech :  React, Nodejs, MySQL</li>
+                                                            <li>Type : E-Learning platform</li>
+                                                            <li>URL : <a href="https://elearning.difuza.com/" target="_blank">elearning.difuza.com</a></li>
                                                         </ul>
-
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 mix development">
+                                        <div class="col-lg-6 mix graphics maintainence">
                                             <div class="br-project-box">
-                                                <h3>Doctory - Helth care</h3>
-                                                <div class="links">
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Development</a>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. It has been the industry's standard ever since the 1500s.
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Read more</a>
-                                                </p>
-                                                <div class="br-info">
-                                                    <div class="portfolio-img">
-                                                        <a class="" data-fancybox="gallery" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/assets/img/portfolio/4.jpg" style="background-image: url(assets/img/portfolio/44.jpg)">
-                                                            <span class="overlay">+</span>
-                                                        </a>
+                                                <h3>Steerapp</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/steerapp.png" class="w-100"/>
                                                     </div>
-                                                    <div class="br-detail">
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
                                                         <ul>
-                                                            <li>Date : 12, Dec - 2021</li>
-                                                            <li>Client : Mariya Lorems</li>
-                                                            <li>Tech : PHP, Mysql</li>
-                                                            <li>Type : Helth</li>
-                                                            <li>URL : <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html#">www.your-project-url.com</a></li>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech :  React, Nodejs, MySQL</li>
+                                                            <li>Type :Car sales and financial services</li>
+                                                            <li>URL : <a href="https://steerapp.difuza.com" target="_blank">steerapp.difuza.com</a></li>
                                                         </ul>
-
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 mix templates design">
+                                        <div class="col-lg-6 mix graphics maintainence">
                                             <div class="br-project-box">
-                                                <h3>ConsultMe</h3>
-                                                <div class="links">
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Template</a> |
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Web Design</a>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. It has been the industry's standard ever since the 1500s.
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Read more</a>
-                                                </p>
-                                                <div class="br-info">
-                                                    <div class="portfolio-img">
-                                                        <a class="" data-fancybox="gallery" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/assets/img/portfolio/5.jpg" style="background-image: url(assets/img/portfolio/55.jpg)">
-                                                            <span class="overlay">+</span>
-                                                        </a>
+                                                <h3>Steer auto </h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/steer auto.png" class="w-100"/>
                                                     </div>
-                                                    <div class="br-detail">
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
                                                         <ul>
-                                                            <li>Date : 23, Oct - 2021</li>
-                                                            <li>Client : Sizuka Mitsu</li>
-                                                            <li>Tech : Android | Ios</li>
-                                                            <li>Type : Consultancy</li>
-                                                            <li>URL : <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html#">www.your-project-url.com</a></li>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech :  React, Nodejs, MySQL</li>
+                                                            <li>Type :Car sales and financial services</li>
+                                                            <li>URL : <a href="https://www.steerauto.com/" target="_blank">www.steerauto.com</a></li>
                                                         </ul>
-
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 mix development graphics">
+                                         <div class="col-lg-6 mix graphics maintainence">
                                             <div class="br-project-box">
-                                                <h3>Shoply - The big market</h3>
-                                                <div class="links">
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Development</a> |
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Graphics</a>
-                                                </div>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. It has been the industry's standard ever since the 1500s.
-                                                    <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Read more</a>
-                                                </p>
-                                                <div class="br-info">
-                                                    <div class="portfolio-img">
-                                                        <a class="" data-fancybox="gallery" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/assets/img/portfolio/6.jpg" style="background-image: url(assets/img/portfolio/66.jpg)">
-                                                            <span class="overlay">+</span>
-                                                        </a>
+                                                <h3>Difuza</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/cms-content.png" class="w-100"/>
                                                     </div>
-                                                    <div class="br-detail">
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
                                                         <ul>
-                                                            <li>Date : 8, May - 2020</li>
-                                                            <li>Client : Babu Rao</li>
-                                                            <li>Tech : Android</li>
-                                                            <li>Type : eCommerce</li>
-                                                            <li>URL : <a href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html#">www.your-project-url.com</a></li>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech :  React, Nodejs, MySQL</li>
+                                                            <li>Type :Content Management System</li>
+                                                            <li>URL : <a href="https://www.difuza.com/" target="_blank">www.difuza.com</a></li>
                                                         </ul>
-
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix graphics maintainence">
+                                            <div class="br-project-box">
+                                                <h3>Competency</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/competency.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech :  React, Nodejs, MySQL</li>
+                                                            <li>Type :competency</li>
+                                                            <li>URL : <a href="https://competency.difuza.com/" target="_blank">competency.difuza.com</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix graphics development">
+                                            <div class="br-project-box">
+                                                <h3>Psychology Project</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/psychology.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech :  React, Nodejs, MySQL</li>
+                                                            <li>Type :Financial services</li>
+                                                            <li>URL : <a href="https://www.difuza.com/feeltalk" target="_blank">www.difuza.com/feeltalk</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="col-lg-6 mix graphics maintainence">
+                                            <div class="br-project-box">
+                                                <h3>TTS</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/tts.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : December2023 -April 2025</li>
+                                                            <li>company : Consortia 22</li>
+                                                            <li>Tech :  HTML,Css,Javascript</li>
+                                                            <li>Type :Financial services</li>
+                                                            <li>URL : <a href="https://www.ttsrinath.com/" target="_blank">www.ttsrinath.com</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="col-lg-6 mix graphics templates">
+                                            <div class="br-project-box">
+                                                <h3>Mentor</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/Mentor.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : April 2023</li>
+                                                            <li>company :Fabevy institute</li>
+                                                            <li>Tech : HTML,Css,javascript</li>
+                                                            <li>Type : Templates</li>
+                                                            <li>URL : <a href="https://satheshimman.github.io/web-page/" target="_blank">Mentor.com</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix graphics templates">
+                                            <div class="br-project-box">
+                                                <h3>Education</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/education.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : April 2023</li>
+                                                            <li>company :Fabevy institute</li>
+                                                            <li>Tech : HTML,Css,Bootstrap,javascript</li>
+                                                            <li>Type : Templates</li>
+                                                            <li>URL : <a href="https://satheshimman.github.io/education-website/" target="_blank">education-website.com</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mix graphics templates">
+                                            <div class="br-project-box">
+                                                <h3>Yummy restuarent</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/yummy.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : April 2023</li>
+                                                            <li>company :Fabevy institute</li>
+                                                            <li>Tech : HTML,Css,Bootstrap,javascript</li>
+                                                            <li>Type : Templates</li>
+                                                            <li>URL : <a href="https://satheshimman.github.io/yummy-restuarent/" target="_blank">yummy-restuarent.com</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="col-lg-6 mix graphics templates">
+                                            <div class="br-project-box">
+                                                <h3>Swiggy</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/swiggy.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : April 2023</li>
+                                                            <li>company :Fabevy institute</li>
+                                                            <li>Tech : HTML,Css,Bootstrap,javascript</li>
+                                                            <li>Type : Templates</li>
+                                                            <li>URL : <a href="https://satheshimman.github.io/swiggy/home-index.html" target="_blank">swiggy-template.com</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="col-lg-6 mix graphics templates">
+                                            <div class="br-project-box">
+                                                <h3>Flipkart Template</h3>
+                                                <div class="br-info row flex-wrap align-items-center">
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                       <img src="./images/flipkart.png" class="w-100"/>
+                                                    </div>
+                                                    <div class="br-detail col-lg-6 col-md-6 col-sm-6">
+                                                        <ul>
+                                                            <li>Date : April 2023</li>
+                                                            <li>company :Fabevy institute</li>
+                                                            <li>Tech : HTML,Css,Bootstrap,javascript,React JS</li>
+                                                            <li>Type : Templates</li>
+                                                            <li>URL : <a href="https://satheshimman.github.io/ecommerce-website/" target="_blank">Flikart-dummy.com</a></li>
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </div>
@@ -532,13 +624,13 @@
                 <h2>Get in <span>Touch</span></h2>
                 <span class="ligh-title">Contact</span>
             </div>
-            <div class="row m-b-minus-30px">
+            <div class="row m-b-minus-30px justify-content-center align-items-center">
                 <div class="col-lg-5 col-md-12 m-b-991-20">
                     <div class="br-box">
                         <div class="detail">
                             <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                             <div class="info">
-                                <h3 class="title">Mail &amp; Website</h3>
+                                <h3 class="title">Mail</h3>
                                 <p>
                                     <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; satheshimman17@gmail.com
                                 </p>
@@ -572,23 +664,6 @@
                     </div>
                     <!-- /Boxes de Acoes -->
                 </div>
-                <div class="col-lg-7 col-md-12">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="fname" placeholder="Full Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="umail" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="phone" placeholder="Phone">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="br-learn-more-right"><span class="text">Submit</span></button>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
@@ -599,14 +674,12 @@
         <div class="container">
             <div class="br-footer-detail">
                 <div class="br-copy">
-                    Copyright © <a class="site-name" href="https://maraviyainfotech.com/wrapbootstrap/brog-html/brog-html/index.html">Brog</a> all rights reserved. Powered by Brog.
+                    Copyright © sathesh</a> all rights reserved. Powered by sathesh.
                 </div>
                 <div class="br-social">
                     <ul>
-                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/Satheshimman" target="_blank"><i class="bi bi-github" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sathesh-immanuel-0680672b4/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -621,7 +694,12 @@
     <script src="./Brog - Personal Portfolio HTML Template_files/mixitup.min.js.download"></script>
     <script src="./Brog - Personal Portfolio HTML Template_files/jquery.fancybox.min.js.download"></script>
     <script src="./Brog - Personal Portfolio HTML Template_files/slick.min.js.download"></script>
-    <script src="./Brog - Personal Portfolio HTML Template_files/fontawesome.js.download"></script><style media="all" id="fa-v4-font-face">/*!
+    <script src="./Brog - Personal Portfolio HTML Template_files/fontawesome.js.download"></script>
+    <script src="./Brog - Personal Portfolio HTML Template_files/script.js"></script>
+
+    <style media="all" id="fa-v4-font-face">
+
+    /*!
  * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2022 Fonticons, Inc.
@@ -643,7 +721,6 @@
     <script src="./Brog - Personal Portfolio HTML Template_files/tweenmax.min.js.download"></script>
 
     <!-- Site Main Js -->
-    <script src="./Brog - Personal Portfolio HTML Template_files/script.js.download"></script>
 
 
 

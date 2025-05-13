@@ -70,7 +70,7 @@
     font-size: 18px;
   }
   .education h4,
-.experiense h4 {
+  .experiense h4 {
     font-size: 21px;
   }
   .timeline-content .timeline-title {
@@ -121,8 +121,8 @@
   .br-hero .hero-content {
     margin: 50px 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .br-hero .hero-content .br-hero-img {
     max-width: 100%;
@@ -142,14 +142,14 @@
     padding: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .br-hero .hero-content .br-hero-detail {
     max-width: 400px;
@@ -182,7 +182,7 @@
     right: -32%;
   }
   .education h4,
-.experiense h4 {
+  .experiense h4 {
     font-size: 20px;
   }
   .box-front .content-wrap h3 {
@@ -220,6 +220,9 @@
   }
 }
 @media only screen and (max-width: 767px) {
+  .br-experience .timeline li {
+    height: 230px;
+  }
   .section-title h2 {
     padding: 0 0 10px 0;
   }
@@ -260,26 +263,30 @@
   .br-contact .br-box:hover:after {
     right: -18%;
   }
-  .br-contact form .form-group input, .br-contact form .form-group textarea {
+  .br-contact form .form-group input,
+  .br-contact form .form-group textarea {
     padding: 10px 15px;
   }
   footer .br-footer-detail {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   footer .br-footer-detail .br-copy {
     margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 575px) {
+  .br-sidebar {
+    top: 70px;
+  }
   .section-title h2 {
     margin-bottom: 20px;
     font-size: 28px;
@@ -287,6 +294,7 @@
   header nav a {
     top: 15px;
     right: 15px;
+    z-index: 999;
   }
   header nav a .svg_img {
     width: 25px;
@@ -313,6 +321,9 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .br-experience .timeline li {
+    height: 300px;
+  }
   .br-project-box .portfolio-img {
     width: 120px;
   }
@@ -324,8 +335,8 @@
   .br-project-box .br-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .br-project-box .portfolio-img {
     width: 100%;
@@ -371,7 +382,8 @@
   .br-about-detail h4 {
     font-size: 18px;
   }
-  .education h4, .experiense h4 {
+  .education h4,
+  .experiense h4 {
     font-size: 19px;
   }
   .timeline-content .timeline-title .sub {
@@ -392,8 +404,8 @@
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .br-contact .br-box .detail .icon {
     margin-bottom: 15px;
@@ -417,6 +429,7 @@
     top: 0;
     right: 0;
     border-radius: 0 0 0 15px;
+    z-index: 999;
   }
   .br-hero .hero-content .br-hero-detail .br-hero-title {
     font-size: 24px;
@@ -443,7 +456,8 @@
   .br-about-info ul li .title {
     min-width: 90px;
   }
-  .education h4, .experiense h4 {
+  .education h4,
+  .experiense h4 {
     font-size: 18px;
   }
   .timeline-content .timeline-title {

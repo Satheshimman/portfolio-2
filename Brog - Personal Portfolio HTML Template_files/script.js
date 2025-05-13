@@ -38,11 +38,13 @@
     $(".br-sidebar-toggle").on("click", function () {
         $(".br-sidebar-overlay").fadeIn();
         $(".br-sidebar").addClass("br-open");
+        $("#toggle-btn").addClass("d-none")
     });
 
     $(".close-sidebar, .nav-link.br-nav").on("click", function () {
         $(".br-sidebar").removeClass("br-open");
         $(".br-sidebar-overlay").fadeOut();
+        $("#toggle-btn").removeClass("d-none")
     });
 
     $(".br-sidebar-overlay").on("click", function () {
